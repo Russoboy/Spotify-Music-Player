@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Spotify-Music-Player.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="music-container">
+         <div id="music-art"></div>
+         <p id="music-name" ></p>
+         <p id="artist-name"></p>
+<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+               
+
+    
+    <button id="prev-btn">Prev</button>
+    <i class="fa-solid fa-backward"></i>
+
+    <button id="pause-play"></button>
+    <i class="fa-solid fa-play"></i>
+    <i class="fa-solid fa-pause"></i>
+
+    <button id="next-btn">Next</button>
+    <i class="fa-solid fa-forward"></i>
+    </div>
+</body>
+<script src="Spotify-Music-Player.js" ></script>
+</html>
+
+
+ 
